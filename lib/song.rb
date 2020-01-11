@@ -24,8 +24,9 @@ class Song
   end
   
   def self.genres
-@@genres.uniq!
-end
+    @@genres.uniq!
+  end
+  
 def name 
    @name
  end
