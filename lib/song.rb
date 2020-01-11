@@ -1,7 +1,7 @@
 class Song
   # attr_reader :name, :artist, :genre
 @@count = 0
-@@genre = []
+@@genres = []
 @@artists = []
 # @@artists
 def initialize( name, artist, genre)
@@ -9,7 +9,7 @@ def initialize( name, artist, genre)
 @artist = artist
 @genre = genre
 @@count += 1
- @@genre << genre
+ @@genres << genre
  @@artists << artist
 end
 def self.count
