@@ -17,10 +17,10 @@ def self.count
   # @@artist
 end
 def self.artists
-  @@artists.unique
+  @@artists.uniq!
 end
 def self.genres
-@@genres.unique
+@@genres.uniq!
 end
 def name 
    @name
