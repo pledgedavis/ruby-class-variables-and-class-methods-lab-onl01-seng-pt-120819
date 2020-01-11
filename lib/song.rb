@@ -16,8 +16,9 @@ def self.count
   @@count
   # @@artist
 end
-self.genre.count
+def self.genre.count
 @genre.unique?
+end
  def name 
    @name
  end
