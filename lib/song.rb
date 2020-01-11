@@ -33,11 +33,11 @@ def name
    @genre
  end
 def self.genre_count
-  @@genre_count.each do |genre|
-    @@genre_count[genre].sort
+  @@genre_count.each do |genres|
+    @@genre_count[genres].sort
   end
     def self.artist_count
-      
+      @@artist_count.each do |artists|.sort
 end
 end
 end
