@@ -32,7 +32,8 @@ def name
  def genre
    @genre
  end
-
+def self.genre_count
+  
 
 
 end
